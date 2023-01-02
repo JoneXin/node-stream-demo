@@ -1,0 +1,22 @@
+{
+  "name": "stream-http",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "ts-node server.ts",
+    "client": "ts-node client.ts",
+    "test": "mocha --recursive  --growl",
+    "test:watch": "mocha --recursive  --growl --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "mocha": "^10.2.0"
+  },
+  "dependencies": {
+    "supertest": "^6.3.3"
+  }
+}
